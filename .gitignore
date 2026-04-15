@@ -1,0 +1,27 @@
+# Java
+*.class
+*.jar
+*.war
+target/
+.classpath
+.project
+.settings/
+*.swp
+*.swo
+
+# Maven
+.m2/
+
+# Node
+node_modules/
+npm-debug.log
+.env
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
