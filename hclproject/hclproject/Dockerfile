@@ -8,4 +8,4 @@ COPY . .
 RUN chmod +x mvnw
 RUN ./mvnw clean install -DskipTests
 
-CMD ["java", "-jar", "target/hclproject-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "target/app.jar"]
