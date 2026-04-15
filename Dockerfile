@@ -8,4 +8,4 @@ RUN mvn clean package -DskipTests
 
 EXPOSE 8082
 
-CMD ["java" , "-jar" , "target/app.js"]
+CMD ["java" , "-jar" , "target/app.jar"]
